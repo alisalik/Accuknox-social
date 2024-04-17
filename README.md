@@ -39,14 +39,7 @@ python manage.py runserver
 
 ## API Endpoints
 
-- `POST /api/v1/signup/`: Sign up with email, username, and password.
-- `POST /api/v1/login/`: Log in with email and password.
-- `GET /api/v1/search/?search=<search_keyword>`: Search for users by email or name.
-- `POST /api/v1/send-request/`: Send a friend request.
-- `POST /api/v1/accept-request/<request_id>/`: Accept a friend request.
-- `POST /api/v1/reject-request/<request_id>/`: Reject a friend request.
-- `GET /api/v1/friends/`: List friends.
-- `GET /api/v1/pending-requests/`: List pending friend requests.
+Refer to the API collection shared seperately
 
 
 ## HeadUp
