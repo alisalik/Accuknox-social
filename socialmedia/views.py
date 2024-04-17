@@ -192,7 +192,7 @@ class Requests(ModelViewSet):
                         req_status = FriendRequest.objects.filter(from_user__email=email).values('status','from_user').update(status='rejected')
                         return Response({'data':'request rejected'},status=status.HTTP_201_CREATED)
                     return Response({'error':'unknown status please accept or reject'},status=status.HTTP_400_BAD_REQUEST)
-                return Response({f'request already {req_status[0]['status']}'},status=status.HTTP_400_BAD_REQUEST)
+                return Response({f'request already {req_status[0]["status"]}'},status=status.HTTP_400_BAD_REQUEST)
             return Response({'please enter valid email and select accept or reject option'},status=status.HTTP_400_BAD_REQUEST)
         except Exception as e:
            print(e)
