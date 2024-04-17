@@ -32,3 +32,4 @@ environ
 django-treebeard
 django-storages==1.14.2
 django-filter==23.3
+python-decouple
