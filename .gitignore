@@ -1,0 +1,24 @@
+.python-version
+.env
+local.py
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+env
+bin
+venv
+
+
+# Migrations
+# **/migrations/**
+# !**/migrations
+# !**/migrations/__init__.py
+api/api/settings/.env.local
+api/api/settings/.env.local
